@@ -77,3 +77,54 @@ df <- data.frame(rollnum = seq(1:10), h1 = 15:24, h2 = 81:90)
 print(df)
 plot(1,5)
 
+#output:
+
+> source('D:/b)R lab/working with datatype.R')
+[1] TRUE
+[1] "logical"
+[1] FALSE
+[1] "logical"
+[1] 63.5
+[1] "numeric"
+[1] 182
+[1] "numeric"
+[1] 186
+[1] "integer"
+[1] 3+2i
+[1] "complex"
+[1] "Apple"
+[1] "character"
+ [1] 57 65 6c 63 6f 6d 65 20 74 6f 20 50 72 6f 67 72 61 6d 69
+[20] 7a
+[1] "raw"
+[1] "Welcome to Programiz"
+[1] "character"
+[1]  TRUE  TRUE  TRUE FALSE  TRUE FALSE
+[1] "numeric"
+[1] "logical"
+[1] "character"
+     [,1] [,2] [,3]
+[1,]   20   45   33
+[2,]   19   52   37
+[[1]]
+[1] "abhi" "ansh" "ajay"
+
+[[2]]
+[1] "delhi"  "mumbai" "pune"  
+
+[[3]]
+[1]  TRUE FALSE  TRUE FALSE FALSE
+
+   rollnum h1 h2
+1        1 15 81
+2        2 16 82
+3        3 17 83
+4        4 18 84
+5        5 19 85
+6        6 20 86
+7        7 21 87
+8        8 22 88
+9        9 23 89
+10      10 24 90
+> 
+
