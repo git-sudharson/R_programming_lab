@@ -1,0 +1,8 @@
+library("sqldf")
+library(readr)
+sales_by_week <- read_csv("F:/RLab/datascisub/sales_by_week.csv")
+View(sales_by_week)
+yr_sale <- sqldf("SELECT * FROM sales_by_week WHERE week=7")
+View(yr_sale)
+sqldf("SELECT * FROM sales_by_week s WHERE s.years = 2014 AND s.week <= 5 ORDER BY s.sales")
+sqldf("SELECT sales_by_week, WHERE s.years = 2014 AND s.week <= 5 ARRAY_AGG(ORDER BY s.sales)")
